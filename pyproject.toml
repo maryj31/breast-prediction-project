@@ -1,0 +1,16 @@
+[project]
+name = "breast-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.8",
+    "kagglehub>=0.3.13",
+    "logfire[fastapi]>=4.10.0",
+    "pandas>=2.3.2",
+    "pyarrow>=21.0.0",
+    "scikit-learn>=1.7.2",
+    "uvicorn[standard]>=0.37.0",
+    "zenml[server]>=0.85.0",
+]

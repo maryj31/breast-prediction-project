@@ -1,0 +1,25 @@
+# Python-generated files
+_pycache_/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+.env/
+venv/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
