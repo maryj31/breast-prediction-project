@@ -35,8 +35,7 @@ Encoded target (M/B) internally as numeric labels for model training
 
 Model training with Logistic Regression 
 
-Ensured good balance with recall and accuracy
-
+Ensured high f1 score 
 
 3. Pipeline (ZenML)
 
@@ -71,7 +70,8 @@ venv\Scripts\activate      # Windows
 
 ⿣ Install Dependencies
 
-pip install -r requirements.txt
+pip install poetry
+poetry install
 
 ⿤ Run Pipeline
 
@@ -89,7 +89,7 @@ Redoc → http://127.0.0.1:8000/redoc
 
 📈 Results
 
-F1-score (macro): 0.94
+F1-score : 0.94
 
 
 
