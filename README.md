@@ -68,14 +68,12 @@ python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 
-⿣ Install Dependencies
+⿣ Install dependencies
 
-pip install poetry
-poetry install
 
 ⿤ Run Pipeline
 
-python run_pipeline.py
+uv run pipeline.py
 
 ⿥ Start FastAPI App
 
